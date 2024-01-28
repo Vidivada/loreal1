@@ -1,0 +1,273 @@
+body{
+    background-color: rgb(143, 184, 245);
+    background-position: fixed;
+    background-size: cover;
+    background-attachment: fixed;
+    text-align: center;
+    color: white;
+}
+header{
+    display: flex;
+    justify-content: flex-start;
+    background-color: rgb(108, 126, 194);
+    height: 100px;
+}
+h2{
+    font-size: 30px;
+}
+.logo{
+  display: flex;
+}
+.navbar{
+
+text-align: center;
+display: flex;
+align-items: center;
+margin-left: 30%;
+}
+a{
+color: white;
+padding: 10px;
+text-decoration: none;
+}
+
+#about {
+    text-align: center;
+    color: black; 
+    font-size: x-large;
+    padding: 3%;
+    text-decoration: none;
+}
+
+.i {
+    border-radius: 50px;
+}
+
+pre {
+    font-size: 15px;
+    display: grid;
+}
+
+.z {
+    color: blue;
+}
+
+#about h2 {
+    background: linear-gradient(to right, #3498db, #e74c3c); 
+    -webkit-background-clip: text; 
+    color: black; 
+    display: inline-block; 
+}
+
+#about h3 {
+    background: linear-gradient(to right, #3498db, #e74c3c); 
+    -webkit-background-clip: text; 
+    color: black; 
+    display: inline-block; 
+}
+
+.gridi {
+    display: grid;
+    grid-template-columns: repeat(8, 4fr); /* Adjust the number of columns based on your design */
+    gap: 20px;
+}
+
+.item1, .item2, .item3, .item4, .item5, .item6 {
+    height: 380px;
+    width: 350px;
+    background-color: aqua;
+    color: rgb(12, 11, 11);
+    border-radius: 50px 50px 0px 0px;
+}
+
+.item1 {
+    background-color: whitesmoke;
+}
+
+.item2 {
+    background-color: whitesmoke;
+}
+
+.btn {
+    text-align: center;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+}
+
+.item3 {
+    background-color: whitesmoke;
+}
+
+.item4 {
+    background-color: whitesmoke;
+}
+
+.item5 {
+    background-color: whitesmoke;
+}
+
+.item6 {
+    background-color: whitesmoke;
+}
+
+
+#menu h2 {
+    background: linear-gradient(to right, #3498db, #e74c3c);
+    -webkit-background-clip: text;
+    color: black;
+    display: inline-block;
+}
+
+.gridii{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    display: flex
+    ;
+}
+.itema,.itemb,.itemc,.itemd,.iteme,.itemf{
+    width: 350px;
+    height: 350px;
+    background-color: aqua;
+}
+.itema{
+    border: 5px solid rgb(242, 58, 29);
+    background-color: rgba(98, 158, 182, 0.432);
+}
+.itemb{
+    background-color: rgba(98, 158, 182, 0.432);
+    border: 5px solid rgb(230, 230, 20);
+}
+.itemc{
+    background-color: rgba(98, 158, 182, 0.432);
+    border: 5px solid rgb(5, 5, 161);
+}
+.itemd{
+    background-color: rgba(98, 158, 182, 0.432);
+    border: 5px solid rgb(172, 4, 4);
+}
+.iteme{
+    background-color: rgba(98, 158, 182, 0.432);
+    border: 5px solid rgb(4, 101, 10);
+}
+.itemf{
+    background-color: rgba(98, 158, 182, 0.432);
+    border: 5px solid rgb(180, 62, 128);
+}
+.gridiii{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 10px;
+}
+.iteml,.itemk,.itemm{
+    gap: 10px;
+    width: 500px;
+    height: 120px;
+    background-color: whitesmoke;
+}
+.n{
+    display: flex;
+    color: black;
+}
+.itemk{
+    display: flex;
+    color: black;
+}
+.itemm{
+    display: flex;
+    color: black;
+}
+.row{
+    display: flex;
+}
+.inputbox{
+    color: white;
+    width: 850px;
+    height: 70px;
+}
+.btni{
+    width: 85px;
+    color: white;
+    background-color: black;
+}
+footer{
+    background-color: rgb(61, 88, 184);
+    background-position-x: center;
+    background-size: 400px;
+    height: 100px;
+}
+input{
+    width: 400px;
+    height: 30px;
+}
+.a{
+    background-color: grey;
+    border-radius: 50px;
+    margin-right: 10px;
+}
+.a:hover{
+    background-color: brown;
+}
+.gridiiii{
+    
+    display: grid;
+    grid-template-rows: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 30px;
+    gap: 10px;
+
+}
+.itemp,.itemp,.items{
+    background-color: white;
+    width: 45px;
+    height: 45px;
+    border-radius: 50px;
+    
+}
+.mg{
+    border-radius: 50%;
+    padding:3px;
+    margin-left: -10px;
+}
+#carousel {
+    width: 100%;
+    height:700px;
+    background-color: black;
+    overflow: auto auto;
+    white-space: nowrap;
+}
+#carousel .slide {
+    display: inline-block;
+}
+
+h2{
+    color: black;
+}
+.btn:hover{
+    background-color: brown;
+
+}
+marquee{
+    color: #ff0000;
+}
+.gridi2{
+   display: flex;
+   flex-direction: row;
+   gap: 25px;
+   margin-top: 30px;
+    white-space: nowrap;
+}
+.carousel{
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    white-space: nowrap;
+}
+.slide{
+    margin-top: 100px;
+}
+.slide2{
+    margin-top: 100px;
+}
